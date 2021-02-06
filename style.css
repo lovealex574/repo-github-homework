@@ -104,16 +104,18 @@ a {
 		
 			.catalog__card {
 				margin-bottom: 30px;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				flex-direction: column;
 				min-width: 360px;
 				min-height: 260px;
 			}
 			
 			.shadowbox__test {
-				background -color: 
+				background-color: rgba(33, 22, 22, 0.7);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				width: 100%;
+				height: 100%;
 			}
 			
 				.woman__catalog {
@@ -135,21 +137,17 @@ a {
 				}
 		
 		.catalog__cards__horizon {
+				height: 180px;
+				margin-bottom: 96px;
+		}
+		
+			.catalog__card__horizon {
 				background-image: url(img/accesories.png);
 				background-position: center;
 				background-size: cover;
 				background-repeat: no-repeat;
-				height: 180px;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				flex-direction: column;
-				margin-bottom: 96px;
-				text-align: center;
-		}
-		
-			.catalog__card__horizon {
-
+				width: 100%;
+				height: 100%;
 			}
 			
 			.catalog__card__text {
