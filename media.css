@@ -15,9 +15,20 @@
 		line-height: 52px;
 	}
 	
-	.catalog__card {
-		
+	.catalog__cards {
+		justify-content: space-around;
 	}
+	
+	.catalog__card {
+		max-width: 230px;
+		min-height: 160px;
+	}
+	
+		.img__catalog {
+			width: 100%;
+			max-width: 230px;
+			position: absolute;
+		}
 	
 	.product {
 		justify-content: space-evenly;
@@ -50,7 +61,7 @@
 	
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 	
 	.navbar__item__log, .navbar__item__purch {
 		display: none;
@@ -79,8 +90,6 @@
 	
 	.catalog__cards__horizon {
 		margin-bottom: 64px;
-		margin-left: 10px;
-		margin-right: 10px;
 	}
 	
 	
