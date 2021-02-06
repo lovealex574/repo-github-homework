@@ -186,6 +186,7 @@ a {
 			}
 			
 				.product__card__img {
+					position: relative;
 					height: 420px;
 					background: #F7E4E2;
 				}
@@ -203,6 +204,28 @@ a {
 					padding-right: 18px;
 					padding-bottom: 20px;
 				}
+				
+				.product__card__price:before {
+					content: "$";
+				}
+			
+				.card__hover {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: rgba(58, 56, 56, 0.86);
+					opacity: 0;
+					visibility: hidden;
+					transition: opacity 0,3s ease;
+				}
+				
+				.product__card__img:hover .card__hover {
+					visibility: visible;
+					opacity: 1;
+				}
+				
 			
 			.button__box {
 				text-align: center;
