@@ -1,5 +1,9 @@
 @media (max-width: 1024px){
 	
+	.square {
+		margin-left: 38px;
+	}
+	
 	.top__screen__text {
 		display: flex;
 		flex-direction: column;
@@ -58,6 +62,9 @@
 		margin-bottom: 140px;
 	}
 
+	.footer__end__elements {
+		padding: 24px 32px;
+	}
 	
 }
 
