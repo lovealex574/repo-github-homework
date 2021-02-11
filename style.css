@@ -363,6 +363,7 @@ h5, H5 {
 					text-overflow: ellipsis;
 					color: #6F6E6E;
 					width: 100%;
+					cursor: pointer;
 				}
 				
 					.slider__bar__item:hover {
