@@ -19,6 +19,19 @@
 		line-height: 52px;
 	}
 	
+	.catalog__page__top, .filter__items {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	
+	.filter__items {
+		justify-content: space-between;
+	}
+	
+		.filter__drop {
+			margin: 0;
+		}
+	
 	.catalog__cards {
 		justify-content: space-around;
 	}
@@ -56,10 +69,7 @@
 	.footer__middle__content {
 		flex-direction: column;
 		align-items: center;
-	}
-	
-	.footer__content__form {
-		margin-bottom: 140px;
+		justify-content: space-around;
 	}
 
 	.footer__end__elements {
@@ -84,6 +94,11 @@
 	
 	.top__screen__content {
 		justify-content: center;
+	}
+	
+	.filter__drop__item {
+		font-size: 12px;
+		line-height: 14px;
 	}
 	
 	.catalog__cards {

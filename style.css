@@ -365,8 +365,8 @@ h5, H5 {
 					width: 100%;
 				}
 				
-					.slider__bar__item {
-						
+					.slider__bar__item:hover {
+						color: #EF5B70;
 					}
 
 		/*		END center section		*/
