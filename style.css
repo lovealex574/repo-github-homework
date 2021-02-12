@@ -179,7 +179,49 @@ h5, H5 {
 			z-index: 1;
 			background: #fff;
 			margin-bottom: 130px;
+			text-align: center;
+			padding: 65px 0;
 		}
+		
+			.choise__collection {
+				margin-bottom: 26px;
+			}
+			
+			.wear__model {
+				font-weight: 300;
+				font-size: 18px;
+				line-height: 22px;				
+				color: #4D4D4D;
+			}
+			
+			.choise__card__object {
+				max-width: 550px;
+				margin-top: 48px;
+				margin-bottom: 32px;
+				color: #5E5E5E;
+			}
+			
+			.choise__card__price {
+				font-weight: 300;
+				font-size: 24px;
+				line-height: 29px;
+			}
+			
+				.choise__card__price:before {
+					content: "$";
+				}
+			
+			hr {
+				color: #EAEAEA;
+				max-width: 640px;
+				width: 100%;
+				margin-top: 65px;
+			}
+			
+			.filter__items__choise {
+				margin-top: 65px;
+				margin-bottom: 48px;
+			}
 			
 		
 		/*		END top section		*/
@@ -233,12 +275,13 @@ h5, H5 {
 				line-height: 19px;
 				color: #F26376;
 				border: 1px solid #FF6A6A;
+				background: #FFFFFF;
 				width: 210px;
 				height: 48px;
 				display: flex;
 				justify-content: flex-start;
 				align-items: center;
-				padding: 14px 0 8px 24px;
+				padding: 14px 0 14px 24px;
 			}
 			
 				.item__choise__card {
