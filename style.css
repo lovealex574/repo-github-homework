@@ -228,26 +228,44 @@ h5, H5 {
 		
 		/*		center section		*/
 	
+		.filter__main {
+			position: absolute;
+			user-select: none;
+			display: block;			
+		}
+	
+		.filter__main[open] {
+			background: #FFFFFF;
+			box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+			width: 360px;
+			height: 560px;
+			z-index: 2;
+			top: -13px;
+			left: -16px;
+			padding-top: 13px;
+			padding-left: 16px;
+		}
 	
 		.filter__items {
 			display:flex;
 			justify-content: start;
 			margin-bottom: 65px;
 			margin-top: 50px;
+			position: relative;
 		}
 		
 			.filter__item {
 				font-weight: 600;
 			}
 			
-				.filter__item:after {
+				.filter__item__imp:after {
 					content: url("img/filter.svg");
 					padding-left: 10px;
 				}
 			
 			.filter__drop {
 				display: flex;
-				margin-left: 320px;
+				margin-left: 330px;
 				color: #6F6E6E;
 			}
 			
