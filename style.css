@@ -211,7 +211,7 @@ h5, H5 {
 					content: "$";
 				}
 			
-			hr {
+			.choise__card__line {
 				color: #EAEAEA;
 				max-width: 640px;
 				width: 100%;
@@ -244,6 +244,14 @@ h5, H5 {
 			left: -16px;
 			padding-top: 13px;
 			padding-left: 16px;
+		}
+		
+		.filter__main__title {
+			display: block;
+		}
+		
+		summary::-webkit-details-marker {
+			display: none;
 		}
 	
 		.filter__items {
