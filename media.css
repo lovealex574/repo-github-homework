@@ -32,14 +32,23 @@
 			margin: 0;
 		}
 	
+	.center__content {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	
 	.catalog__cards {
 		justify-content: space-around;
 	}
 	
-	.catalog__card {
-		max-width: 230px;
-		min-height: 160px;
-	}
+		.catalog__card {
+			margin-bottom: 20px;
+			margin-right: 20px;
+		}
+		
+			.catalog__card:last-child {
+				margin-right: 0;
+			}
 	
 		.img__catalog {
 			width: 100%;
@@ -51,6 +60,9 @@
 		justify-content: space-evenly;
 	}
 	
+	.shoping__card__main {
+		flex-direction: column;
+	}
 	
 	.footer__menu {
 		flex-direction: column;
@@ -108,6 +120,7 @@
 	
 		.catalog__card {
 			margin-bottom: 30px;
+			margin-right: 0;
 		}
 	
 	.catalog__cards__horizon {
