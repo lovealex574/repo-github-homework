@@ -26,52 +26,16 @@
 				<?php include ('navbar.html'); ?>
 
 			</div>	
-			<div class="top__screen ">
-				<div class="top__screen__content conteiner">
-					<img class="top__screen__img" src="img/top__image.png" alt="">
-					<div class="square"></div>
-					<div class="top__screen__text">
-						<h1>THE BRAND</h1>
-						<p class="wide__text">OF LUXERIOUS <span class="attention">FASHION</span></p>
-					</div>
+			<div class="catalog__page__top">
+				<div class="catalog__top conteiner">
+				<div class="catalog__top__title">
+					<h3 class="attention">NEW ARRIVALS</h3>
 				</div>
-				<div class="block__test">
-					<div class="test__shadow"></div>
-					<div class="test conteiner">
-						<div class="menu__hamburger__coub">
-							<p>MENU</p>
-						</div>
-						<div>
-							<div class="title__catalog__item">
-								<p class="filter__item__sub attention">MAN</p>
-							</div>
-							<p class="category__drop">Accessories</p>
-							<p class="category__drop">Bags</p>
-							<p class="category__drop">Denim</p>
-							<p class="category__drop">T-Shirts</p>						
-						</div>
-						<div>
-							<div class="title__catalog__item">
-								<p class="filter__item__sub attention">WOMAN</p>
-							</div>							
-							<p class="category__drop">Accessories</p>
-							<p class="category__drop">Jackets & Coats</p>
-							<p class="category__drop">Polos</p>
-							<p class="category__drop">T-Shirts</p>
-							<p class="category__drop">Shirts</p>
-						</div>
-						<div>
-							<div class="title__catalog__item">
-								<p class="filter__item__sub attention">KIDS</p>
-							</div>							
-							<p class="category__drop">Accessories</p>
-							<p class="category__drop">Jackets & Coats</p>
-							<p class="category__drop">Polos</p>
-							<p class="category__drop">T-Shirts</p>
-							<p class="category__drop">Shirts</p>
-							<p class="category__drop">Bags</p>
-						</div>
-					</div>
+				<div class="catalog__top__items text">
+					<a class="catalog__top__item" href="index.php">HOME</a>
+					<a class="catalog__top__item" href="catalog.php">MEN</a>
+					<a class="attention" href="#">NEW ARRIVALS</a>
+				</div>
 				</div>
 			</div>	
 		</div>
@@ -82,52 +46,57 @@
 		
 		<div class="center__content conteiner">
 			
-			<div class="catalog__cards">	
-				<div class="catalog__card left__card">
-					<div class="shadowbox__test">
-						<p class="catalog__card__text">
-							30% OFF
-						</p>
-						<h4 class="attention">
-							FOR WOMEN
-						</h4>
-					</div>
-				</div>				
-				<a class="catalog__card center__card" href="catalog.php">
-					<div class="shadowbox__test">
-						<p class="catalog__card__text">
-							HOT DEAL
-						</p>
-						<h4 class="attention">
-							FOR MEN
-						</h4>
-					</div>
-				</a>
-				<div class="catalog__card right__card">
-					<div class="shadowbox__test">
-						<p class="catalog__card__text">
-							NEW ARRIVALS
-						</p>
-						<h4 class="attention">
-							FOR KIDS
-						</h4>
-					</div>
+			<div class="filter__items text">
+				<div class="filter__item">
+					<details class="filter__main">
+						<summary class="filter__drop__filter">
+							<span class="filter__items__imp">FILTER</span>
+						</summary>
+						<details>
+							<summary>
+								<div class="filter__item__coub">
+									
+								</div>
+								<p class="filter__item__sub attention">CATEGORY</p>
+							</summary>
+							<hr class="summery__line">
+							<p class="category__drop">Accessories</p>
+							<p class="category__drop">Bags</p>
+							<p class="category__drop">Denim</p>
+							<p class="category__drop">Hoodies & Sweatshirts</p>
+							<p class="category__drop">Jackets & Coats</p>
+							<p class="category__drop">Polos</p>
+							<p class="category__drop">Shirts</p>
+							<p class="category__drop">Shoes</p>
+							<p class="category__drop">Sweaters & Knits</p>
+							<p class="category__drop">T-Shirts</p>
+							<p class="category__drop">Tanks</p>
+						</details>
+						<details>							
+							<summary>
+								<div class="filter__item__coub">
+									
+								</div>							
+								<p class="filter__item__sub attention">BRAND</p>
+							</summary>
+							<hr class="summery__line">
+						</details>
+						<details>
+							<summary>
+								<div class="filter__item__coub">
+									
+								</div>
+								<p class="filter__item__sub attention">DESIGNER</p>
+							</summary>
+							<hr class="summery__line">
+						</details>
+					</details>
 				</div>
-			</div>
-			<div class="catalog__cards__horizon">
-				<div class="shadowbox__test">
-					<p class="catalog__card__text">
-						LUXIROUS & TRENDY
-					</p>
-					<h4 class="attention">
-						ACCESORIES
-					</h4>
+				<div class="filter__drop">
+					<p class="filter__drop__item">TRENDING NOW</p>
+					<p class="filter__drop__item">SIZE</p>
+					<p class="filter__drop__item">PRICE</p>
 				</div>
-			</div>
-			
-			<div>
-				<h2>Fetured Items</h2>
-				<p class="pop__items text">Shop for items based on what we featured in this week</p>
 			</div>
 			
 		<!--	product section		-->
@@ -140,7 +109,7 @@
 							<button class="card__btn">
 								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 								<span class="card__btn__text">Add To Card</span>
-							</button>
+							</button>							
 						</div>
 					</div>
 					<a class="product__card__text text" href="product.php">
@@ -151,7 +120,7 @@
 				</div>
 				<div class="product__card">
 					<div class="product__card__img transparent">
-						<img src="img/suit__women__black.png" alt="">
+						<img src="img/burbon__suit.png" alt="">
 						<div class="card__hover">
 							<button class="card__btn">
 								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -199,7 +168,7 @@
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
-						<img src="img/jacket__women__cyan.png" alt="">
+						<img src="img/smile__inMy__white.png" alt="">
 						<div class="card__hover">
 							<button class="card__btn">
 								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -215,7 +184,55 @@
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
-						<img src="img/blouse__women__olive.png" alt="">
+						<img src="img/white__tee.png" alt="">
+						<div class="card__hover">
+							<button class="card__btn">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								<span class="card__btn__text">Add To Card</span>
+							</button>							
+						</div>
+					</div>
+					<a class="product__card__text text" href="product.php">
+						<h5>ELLERY X M'O CAPSULE</h5>
+						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+						<p class="product__card__price attention">52.00</p>
+					</a>
+				</div>
+				<div class="product__card">
+					<div class="product__card__img">
+						<img src="img/white__shirt.png" alt="">
+						<div class="card__hover">
+							<button class="card__btn">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								<span class="card__btn__text">Add To Card</span>
+							</button>							
+						</div>
+					</div>
+					<a class="product__card__text text" href="product.php">
+						<h5>ELLERY X M'O CAPSULE</h5>
+						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+						<p class="product__card__price attention">52.00</p>
+					</a>
+				</div>
+				<div class="product__card">
+					<div class="product__card__img">
+						<img src="img/jacket__doggy.png" alt="">
+						<div class="card__hover">
+							<button class="card__btn">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								<span class="card__btn__text">Add To Card</span>
+							</button>							
+						</div>
+					</div>
+					<a class="product__card__text text" href="product.php">
+						<h5>ELLERY X M'O CAPSULE</h5>
+						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+						<p class="product__card__price attention">52.00</p>
+					</a>
+				</div>
+				<div class="product__card">
+					<div class="product__card__img">
+						<img src="img/olive__shirt.png" alt="">
 						<div class="card__hover">
 							<button class="card__btn">
 								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -233,8 +250,21 @@
 			
 		<!--	END product section		-->
 			
-			<div class="button__box conteiner">
-				<a class="button__product" href="#">Browse All Product</a>
+			<div class="slider__bar conteiner">
+				<i class="fa fa-angle-left arrow__slide" aria-hidden="true"></i>
+				<div class="slider__bar__items">
+					<p class="slider__bar__item">1</p>
+					<p class="slider__bar__item">2</p>
+					<p class="slider__bar__item">3</p>
+					<p class="slider__bar__item">4</p>
+					<p class="slider__bar__item">5</p>
+					<p class="slider__bar__item">6</p>
+					<p class="slider__bar__item">7</p>
+					<p class="slider__bar__item">8</p>
+					<p class="slider__bar__item">9</p>
+					<p class="slider__bar__item">10</p>
+				</div>
+				<i class="fa fa-angle-right arrow__slide" aria-hidden="true"></i>
 			</div>
 		</div>
 

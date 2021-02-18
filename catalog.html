@@ -22,29 +22,9 @@
 
 		<div class="top">
 			<div class="navbar">
-				<div class="navbar__items conteiner">
-					<ul class="navbar__item">
-						<li>
-							<a href="index.html">
-								<img src="img/logo__navbar.svg" alt="logo">
-							</a>
-						</li>
-						<li>
-							<img src="img/search__navbar.svg" alt="search">
-						</li>
-					</ul>
-					<ul class="navbar__item">
-						<li class="navbar__item__hamburger">
-							<img src="img/hamburger__navbar.svg" alt="hamburger">
-						</li>
-						<li class="navbar__item__log">
-							<img src="img/log__navbar.svg" alt="log">
-						</li>
-						<li class="navbar__item__purch">
-							<img src="img/purchaise__navbar.svg" alt="purchaise">
-						</li>
-					</ul>
-				</div>
+
+				<?php include ('navbar.html'); ?>
+
 			</div>	
 			<div class="catalog__page__top">
 				<div class="catalog__top conteiner">
@@ -52,8 +32,8 @@
 					<h3 class="attention">NEW ARRIVALS</h3>
 				</div>
 				<div class="catalog__top__items text">
-					<a class="catalog__top__item" href="#">HOME</a>
-					<a class="catalog__top__item" href="#">MEN</a>
+					<a class="catalog__top__item" href="index.php">HOME</a>
+					<a class="catalog__top__item" href="catalog.php">MEN</a>
 					<a class="attention" href="#">NEW ARRIVALS</a>
 				</div>
 				</div>
@@ -67,7 +47,45 @@
 		<div class="center__content conteiner">
 			
 			<div class="filter__items text">
-				<p class="filter__item">FILTER</p>
+				<div class="filter__item">
+					<details class="filter__main">
+						<summary class="filter__drop__filter">
+							<span class="filter__items__imp">FILTER</span>
+						</summary>
+						<details>
+							<summary>
+								<div class="filter__item__coub"></div>
+								<p class="filter__item__sub attention">CATEGORY</p>
+							</summary>
+							<hr class="summery__line">
+							<li class="category__drop">Accessories</li>
+							<li class="category__drop">Bags</li>
+							<li class="category__drop">Denim</li>
+							<li class="category__drop">Hoodies & Sweatshirts</li>
+							<li class="category__drop">Jackets & Coats</li>
+							<li class="category__drop">Polos</li>
+							<li class="category__drop">Shirts</li>
+							<li class="category__drop">Shoes</li>
+							<li class="category__drop">Sweaters & Knits</li>
+							<li class="category__drop">T-Shirts</li>
+							<li class="category__drop">Tanks</li>
+						</details>
+						<details>							
+							<summary>
+								<div class="filter__item__coub"></div>							
+								<p class="filter__item__sub attention">BRAND</p>
+							</summary>
+							<hr class="summery__line">
+						</details>
+						<details>
+							<summary>
+								<div class="filter__item__coub"></div>
+								<p class="filter__item__sub attention">DESIGNER</p>
+							</summary>
+							<hr class="summery__line">
+						</details>
+					</details>
+				</div>
 				<div class="filter__drop">
 					<p class="filter__drop__item">TRENDING NOW</p>
 					<p class="filter__drop__item">SIZE</p>
@@ -88,11 +106,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img transparent">
@@ -104,11 +122,11 @@
 							</button>
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>	
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -120,11 +138,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -136,11 +154,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -152,11 +170,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -168,11 +186,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -184,11 +202,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -200,11 +218,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 				<div class="product__card">
 					<div class="product__card__img">
@@ -216,11 +234,11 @@
 							</button>							
 						</div>
 					</div>
-					<div class="product__card__text text">
+					<a class="product__card__text text" href="product.php">
 						<h5>ELLERY X M'O CAPSULE</h5>
 						<p class="product__card__about">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
 						<p class="product__card__price attention">52.00</p>
-					</div>
+					</a>
 				</div>
 			</div>
 			
@@ -279,7 +297,7 @@
 					<div class="footer__middle__content conteiner">
 						<div class="footer__content">
 							<div class="face__user"></div>
-							<p class="footer__content__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+							<p class="footer__content__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <i>a pulvinar purus condimentum“</i></p>
 						</div>
 						<div class="footer__content__form">
 							<h3>SUBSCRIBE</h3>

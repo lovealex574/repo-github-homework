@@ -23,29 +23,8 @@
 		<div class="top">
 			<div class="navbar">
 
-				<div class="navbar__items conteiner">
-					<ul class="navbar__item">
-						<li>
-							<a href="index.php">
-								<img class="homepage__logo" src="img/logo__navbar.svg" alt="logo">
-							</a>
-						</li>
-						<li>
-							<img src="img/search__navbar.svg" alt="search">
-						</li>
-					</ul>
-					<ul class="navbar__item">
-						<li class="navbar__item__hamburger">
-							<img src="img/hamburger__navbar.svg" alt="hamburger">
-						</li>
-						<li class="navbar__item__log">
-							<img src="img/log__navbar.svg" alt="log">
-						</li>
-						<li class="navbar__item__purch">
-							<img src="img/purchaise__navbar.svg" alt="purchaise">
-						</li>
-					</ul>
-				</div>
+				<?php include ('navbar.html'); ?>
+
 			</div>	
 			<div class="catalog__page__top">
 				<div class="catalog__top conteiner">
