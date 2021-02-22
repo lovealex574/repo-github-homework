@@ -27,9 +27,9 @@
 
 			</div>	
 			<div class="catalog__page__top">
-				<div class="catalog__top conteiner">
+				<div class="shoping__card__top conteiner">
 				<div class="catalog__top__title">
-					<h3 class="attention">SHOPPING CART</h3>
+					<h3 class="attention mobile__fix">SHOPPING CART</h3>
 				</div>
 				<div class="catalog__top__items text">
 			<!--
@@ -52,7 +52,7 @@
 				<div class="shoping__card__main">
 					<div class="card__preview">
 						<div class="card__preview__item">
-							<img src="img/hoody__men__squere.png" style="max-width: 260px;">
+							<img src="img/hoody__men__squere.png" alt="" style="max-width: 260px;">
 							<div class="card__preview__item__text">
 								<h4 class="card_title">MANGO  PEOPLE  T-SHIRT</h4>
 								<div class="close__cross">
@@ -65,7 +65,7 @@
 							</div>
 						</div>
 						<div class="card__preview__item">
-							<img src="img/chinos__men__yellow.png" style="max-width: 260px;">
+							<img src="img/chinos__men__yellow.png" alt="" style="max-width: 260px;">
 							<div class="card__preview__item__text">
 								<h4 class="card_title">MANGO  PEOPLE  T-SHIRT</h4>
 								<div class="close__cross">
@@ -83,7 +83,7 @@
 						</div>
 					</div>
 					<div>
-						<div>
+						<div class="form__delivery">
 							<form class="form__adress">
 								<p>SHIPPING ADRESS</p>
 								<input class="form__adress__text text" type="text" value="Bangladesh">

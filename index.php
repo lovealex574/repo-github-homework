@@ -83,8 +83,7 @@
 		<div class="center__content conteiner">
 			
 			<div class="catalog__cards">	
-				<div class="catalog__card">
-					<img class="img__catalog" src="img/for__woman.png">
+				<div class="catalog__card left__card">
 					<div class="shadowbox__test">
 						<p class="catalog__card__text">
 							30% OFF
@@ -94,8 +93,7 @@
 						</h4>
 					</div>
 				</div>				
-				<a class="catalog__card" href="catalog.php">
-					<img class="img__catalog" src="img/for__men.png">
+				<a class="catalog__card center__card" href="catalog.php">
 					<div class="shadowbox__test">
 						<p class="catalog__card__text">
 							HOT DEAL
@@ -105,8 +103,7 @@
 						</h4>
 					</div>
 				</a>
-				<div class="catalog__card">
-					<img class="img__catalog" src="img/for__kids.png">
+				<div class="catalog__card right__card">
 					<div class="shadowbox__test">
 						<p class="catalog__card__text">
 							NEW ARRIVALS

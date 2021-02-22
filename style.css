@@ -275,6 +275,13 @@ h5, H5 {
 				align-items: center;
 				height: 100%;
 			}
+			
+			.shoping__card__top {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				height: 100%;
+			}
 					
 			.catalog__top__items {
 				display: flex;
@@ -699,13 +706,19 @@ h5, H5 {
 						color: #EF5B70;
 						transform: scale(1.5,1.5);
 					}
+					
+			.form__delivery {
+				display: flex;
+				flex-direction: column;
+				margin-top: 18px;
+			}
 			
 			.form__adress {
 				width: 360px;	
 				display: flex;
 				justify-content: flex-end;
 				flex-direction: column;	
-				padding: 18px 0;	
+				padding-bottom: 18px;
 				font-weight: 300;
 				font-size: 16px;
 				line-height: 19px;				
