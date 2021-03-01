@@ -27,9 +27,9 @@
 
 			</div>	
 			<div class="catalog__page__top">
-				<div class="catalog__top conteiner">
+				<div class="shoping__card__top conteiner">
 				<div class="catalog__top__title">
-					<h3 class="attention">SHOPPING CART</h3>
+					<h3 class="attention mobile__fix">REGISTRATION</h3>
 				</div>
 				<div class="catalog__top__items text">
 			<!--
@@ -49,56 +49,36 @@
 		<div class="center__content conteiner">
 			
 			<div>
-				<div class="shoping__card__main">
-					<div class="card__preview">
-						<div class="card__preview__item">
-							<img src="img/hoody__men__squere.png" style="max-width: 260px;">
-							<div class="card__preview__item__text">
-								<h4 class="card_title">MANGO  PEOPLE  T-SHIRT</h4>
-								<div class="close__cross">
-									<img class="cross__img" src="img/cross.png" alt="">
+				<div class="reg__card__main">
+					<div>
+						<div class="form__reg">
+							<form class="form__reg__main">
+								<p class="reg__form__title">Your Name</p>
+								<input class="form__reg__text text" type="text" value="First Name">
+								<input class="form__reg__text text" type="text" value="Last Name">
+								<div class="choice__gender">
+									<p class="gender__items"><input class="gender__item" type="checkbox" value="Male">Male</p>
+									<p class="gender__items"><input class="gender__item" type="checkbox" value="Female">Female</p>
 								</div>
-								<p>Price: $300</p>
-								<p>Color: Red</p>
-								<p>Size: Xl</p>
-								<p>Quantity:</p>
-							</div>
-						</div>
-						<div class="card__preview__item">
-							<img src="img/chinos__men__yellow.png" style="max-width: 260px;">
-							<div class="card__preview__item__text">
-								<h4 class="card_title">MANGO  PEOPLE  T-SHIRT</h4>
-								<div class="close__cross">
-									<img class="cross__img" src="img/cross.png" alt="">
-								</div>
-								<p>Price: $300</p>
-								<p>Color: Red</p>
-								<p>Size: Xl</p>
-								<p>Quantity:</p>
-							</div>
-						</div>
-						<div class="buttons__card__choise">
-							<button class="card__btn__choise">CLEAR SHOPPING CART</button>
-							<button class="card__btn__choise">CONTINUE SHOPPING</button>
+								<p class="reg__form__title">Your Name</p>
+								<input class="form__reg__text text" type="text" value="First Name">
+								<input class="form__reg__text text" type="text" value="Last Name">									<p class="fine__print">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+								<a class="btn__form__reg" href="#">JOIN NOW</a>
+							</form>
 						</div>
 					</div>
+
 					<div>
-						<div>
-							<form class="form__adress">
-								<p>SHIPPING ADRESS</p>
-								<input class="form__adress__text text" type="text" value="Bangladesh">
-								<input class="form__adress__text text" type="text" value="State">
-								<input class="form__adress__text text" type="text" value="Postcode / Zip">
-								<button class="btn__form__adress">GET A QUOTE</button>
-							</form>
-							<div class="purchaise__test">
-								<div class="cash__calc">
-									<div class="sub__total">SUB TOTAL $900</div>
-									<div class="grand__total">GRAND TOTAL $900</div>
-								</div>
-								<hr class="purchaise__horizon__line">
-								<button class="btn__cash__calc">PROCEED TO CHECKOUT</button>
-							</div>
+						<div class="reg__plus">
+							<p>LOYALTY HAS ITS PERKS</p>
+							<p class="advantage">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+							<ul class="reg__text__lists">
+								<li class="reg__text__list">15% off welcome offer</li>
+								<li class="reg__text__list">Free shipping, returns and exchanges on all orders</li>
+								<li class="reg__text__list">$10 off a purchase on your birthday</li>
+								<li class="reg__text__list">Early access to products</li>
+								<li class="reg__text__list">Exclusive offers & rewards</li>
+							</ul>
 						</div>
 					</div>
 				</div>

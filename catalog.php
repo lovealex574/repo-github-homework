@@ -54,10 +54,8 @@
 						</summary>
 						<details>
 							<summary>
-								<div class="filter__item__coub">
-									
-								</div>
-								<p class="filter__item__sub attention">CATEGORY</p>
+								<span class="filter__item__coub"></span>
+								<span class="filter__item__sub attention">CATEGORY</span>
 							</summary>
 							<hr class="summery__line">
 							<p class="category__drop">Accessories</p>
@@ -74,19 +72,15 @@
 						</details>
 						<details>							
 							<summary>
-								<div class="filter__item__coub">
-									
-								</div>							
-								<p class="filter__item__sub attention">BRAND</p>
+								<span class="filter__item__coub"></span>							
+								<span class="filter__item__sub attention">BRAND</span>
 							</summary>
 							<hr class="summery__line">
 						</details>
 						<details>
 							<summary>
-								<div class="filter__item__coub">
-									
-								</div>
-								<p class="filter__item__sub attention">DESIGNER</p>
+								<span class="filter__item__coub"></span>
+								<span class="filter__item__sub attention">DESIGNER</span>
 							</summary>
 							<hr class="summery__line">
 						</details>

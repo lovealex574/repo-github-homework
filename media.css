@@ -69,15 +69,34 @@
 		justify-content: space-around;
 	}
 		
+	.reg__card__main {
+		padding-top: 40px;
+	}	
+		
 	.form__delivery {
 		margin-top: 64px;
 		flex-direction: row;
-		
 	}	
 	
 		.form__adress {
 			margin-right: 15px;
 		}
+
+	.form__reg {
+		flex-direction: row;
+		
+	}	
+	
+		.form__reg__main {
+			margin-right: 15px;
+		}
+		
+	.reg__plus {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+		margin-left: 22px;
+	}
 	
 	.product {
 		justify-content: space-evenly;
@@ -120,8 +139,13 @@
 		display: none;
 	}
 	
+	.navbar__item li:first-child {
+		padding-left: 16px;
+	}
+	
 	.navbar__item__hamburger {
-		padding: 0;
+		padding-left: 0;
+		padding-right: 16px;
 	}
 	
 	.top__screen__img {
@@ -186,6 +210,11 @@
 		.card__btn__choise:first-child {
 			margin-right: 10px;
 		}
+		
+	.reg__card__main {
+		flex-direction: column;
+		padding-bottom: 100px;
+	}
 	
 	.form__delivery {
 		flex-direction: column;
@@ -195,6 +224,34 @@
 	
 	.form__adress {
 		padding-bottom: 8px;
+	}
+
+	.form__reg {
+		flex-direction: column;
+		margin-left: 0px;
+		
+	}
+	
+	.form__reg__main {
+		padding-bottom: 40px;
+		width: 100%;
+	}
+	
+	.btn__form__reg {
+		margin-top: 40px;
+	}
+	
+	.advantage {
+		margin-top: 32px;
+		margin-bottom: 22px;
+	}
+	
+	.reg__text__list {
+		padding-top: 16px;
+	}
+	
+	.reg__plus {
+		margin-left: 0;
 	}
 	
 	.double__button {
@@ -223,6 +280,10 @@
 		flex-direction: column;
 		padding-top: 44px;
 	}
+	
+		.footer__end__element:last-child {
+			margin-top: 24px;
+		}
 	
 	
 	

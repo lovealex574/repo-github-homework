@@ -66,10 +66,10 @@
 								<p class="filter__drop__item">QUANTITY</p>
 							</div>
 						</div>
-						<button class="choise__card__btn">
+						<a class="choise__card__btn" href="#">
 							<i class="fa fa-shopping-cart item__choise__card" aria-hidden="true"></i>
 							<span class="card__btn__text">Add To Card</span>
-						</button>							
+						</a>							
 				</div>
 
 						

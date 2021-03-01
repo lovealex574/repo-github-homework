@@ -70,7 +70,6 @@ h5, H5 {
 	.navbar {
 		background: #222222;
 		height: 75px;
-		padding: 20px;
 	}
 	
 		.navbar__items {
@@ -86,13 +85,57 @@ h5, H5 {
 				align-items: center;
 			}
 			
+			.navbar__item li:first-child {
+				padding-left: 20px;
+			}
+			
 			li {
 				padding-right: 30px;
+				padding-top: 20px;
+				list-style-type: none;
 			}
 			
 			li:last-child {
-				padding-right: 0;
+				padding-right: 20;
 			}
+			
+			.nav__search {
+				transition: 0.5s;
+
+			}
+			
+			.nav__search:hover {
+				transform: rotate(80deg);
+			}
+			
+			.navbar__item__purch {
+				position: relative;
+			}
+			
+				.items__purch {
+					position: relative;
+				}
+			
+				.number__piece {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					position: absolute;
+					background: #F16D7F;
+					top: -20px;
+					right: -10px;
+					border-radius: 50%;
+					width: 19px;
+					height: 19px;
+					font-size: 12px;
+					line-height: 14px;
+					color: #FFFFFF;
+					transition: 0.5s;
+				}
+				
+				.items__purch:hover .number__piece {
+					transform: scale(1.5, 1.5);
+				}
 			
 	.top__screen {
 		background: #F1E4E6;
@@ -196,6 +239,7 @@ h5, H5 {
 			.item__circle {
 				margin-top: 10px;
 				margin-bottom: 42px;
+				width: 100%;
 			}
 		
 		/*		catalog__top section		*/
@@ -248,6 +292,11 @@ h5, H5 {
 			display: flex;
 			justify-content: space-between;
 		}
+		
+			.card__btn:hover {
+				background: #F16D7F;
+				border: 1px solid #F16D7F;
+			}
 		
 			.card__btn__choise {
 				max-width: 234px;
@@ -565,6 +614,7 @@ h5, H5 {
 				width: 360px;
 				background: #F8F8F8;
 				margin-bottom: 30px;
+				transition: 0.5s;
 			}
 			
 				.product__card:hover {
@@ -659,7 +709,7 @@ h5, H5 {
 				margin-bottom: 96px;
 			}
 			
-				.button__product:hover {
+				.button__product:hover, .choise__card__btn:hover {
 					color: #FFFFFF;
 					background: #F26376;
 				}
@@ -737,7 +787,9 @@ h5, H5 {
 				height: 34px;
 				width: 100px;
 				text-align: center;
-				padding: 10px 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 				margin-top: 24px;
 				background: #FFFFFF;
 			}
@@ -799,7 +851,128 @@ h5, H5 {
 					.btn__cash__calc:hover {
 						transform: scale(1.05,1.05);
 					}
+			
+		.reg__card__main {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 64px;
+		padding-bottom: 96px;
+	}	
+		
+		.reg__plus {
+			margin-left: 128px;
+			font-weight: 300;
+			font-size: 24px;
+			line-height: 29px;
+		}
+			.reg__form__title {
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 19px;
+			}
 				
+			.reg__text__list:before {
+				content: url('img/check_list.svg');
+				margin-right: 22px;
+			}	
+			
+			.reg__text__list {
+				margin-bottom: 16px;
+			}
+			
+			.reg__text__list:last-child {
+				margin: 0;
+			}
+			
+			.form__reg {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.form__reg__main {
+				width: 360px;	
+				display: flex;
+				justify-content: flex-end;
+				flex-direction: column;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 19px;				
+				color: #222222;	
+			}
+					
+			.form__reg__text {
+				height: 44px;
+				border: 1px solid #A4A4A4;
+				max-width: 360px;
+				margin-top: 20px;
+				padding-left: 16px;
+				color: #B1B1B1;
+			}
+			
+			.form__reg__text:last-cgild {
+				margin-bottom: 
+			}
+			
+				.advantage {
+					margin: 22px 0;
+				}
+			
+			.choice__gender {
+				display: flex;
+				justify-content: flex-start;
+				margin: 32px 0;
+				font-weight: 300;
+				font-size: 11px;
+				line-height: 13px;
+			}
+			
+				.gender__items {
+					margin-right: 20px;
+				}
+			
+				.gender__item {
+					margin-right: 10px;
+				}
+				
+			.fine__print {
+				font-weight: 300;
+				font-size: 13px;
+				line-height: 16px;			
+				color: #B1B1B1;
+				margin-top: 16px;
+			}
+			
+			.btn__form__reg {
+				height: 50px;
+				width: 168px;
+				text-align: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 24px;
+				background: #FFFFFF;
+				border: 1px solid #FF6A6A;
+				color: #FF6A6A;
+			}
+			
+				.btn__form__reg:after {
+					content: '';
+					background-image: url(img/right-arrow.svg);
+					background-repeat: no-repeat;
+					background-size: contain;
+				}
+			
+				.btn__form__reg:hover {
+					transform: scale(1.05,1.05);
+					background: #F16D7F;
+					color: #FFFFFF;
+				}
+			
+				input:focus {
+					color: #B1B1B1;
+				}
+
+			
 		/*		END center section		*/
 			
 		/*	Footer	*/

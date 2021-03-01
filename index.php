@@ -35,44 +35,6 @@
 						<p class="wide__text">OF LUXERIOUS <span class="attention">FASHION</span></p>
 					</div>
 				</div>
-				<div class="block__test">
-					<div class="test__shadow"></div>
-					<div class="test conteiner">
-						<div class="menu__hamburger__coub">
-							<p>MENU</p>
-						</div>
-						<div>
-							<div class="title__catalog__item">
-								<p class="filter__item__sub attention">MAN</p>
-							</div>
-							<p class="category__drop">Accessories</p>
-							<p class="category__drop">Bags</p>
-							<p class="category__drop">Denim</p>
-							<p class="category__drop">T-Shirts</p>						
-						</div>
-						<div>
-							<div class="title__catalog__item">
-								<p class="filter__item__sub attention">WOMAN</p>
-							</div>							
-							<p class="category__drop">Accessories</p>
-							<p class="category__drop">Jackets & Coats</p>
-							<p class="category__drop">Polos</p>
-							<p class="category__drop">T-Shirts</p>
-							<p class="category__drop">Shirts</p>
-						</div>
-						<div>
-							<div class="title__catalog__item">
-								<p class="filter__item__sub attention">KIDS</p>
-							</div>							
-							<p class="category__drop">Accessories</p>
-							<p class="category__drop">Jackets & Coats</p>
-							<p class="category__drop">Polos</p>
-							<p class="category__drop">T-Shirts</p>
-							<p class="category__drop">Shirts</p>
-							<p class="category__drop">Bags</p>
-						</div>
-					</div>
-				</div>
 			</div>	
 		</div>
 
